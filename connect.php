@@ -4,11 +4,6 @@ $conn = new mysqli("localhost", "root", "", 'registration');
 echo "Successfully connected to database<br>";
 
 if(isset($_POST['submit'])){
-	$fname=$_POST['fname'];
-	$username=$_POST['username'];
-	$password=$_POST['password'];
-	$contact=$_POST['contact'];
-	$gender=$_POST['gender'];
 	
 	$class=$_POST['class'];
 	$address=$_POST['address'];
@@ -28,5 +23,13 @@ if(isset($_POST['submit'])){
 	
 
 }
+
+
+	class CStudent{
+		function __construct(){
+			echo"Constructor called";
+		}
+	}
+	$obj = new CStudent;
 
 ?>
