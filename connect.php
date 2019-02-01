@@ -28,6 +28,8 @@ if(isset($_POST['submit'])){
 	class CStudent{
 		function __construct(){
 			echo"Constructor called";
+			
+			echo "I Want to add here one line";
 		}
 	}
 	$obj = new CStudent;
