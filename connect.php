@@ -33,5 +33,4 @@ if(isset($_POST['submit'])){
 		}
 	}
 	$obj = new CStudent;
-
-?>
+//I have added something additional
